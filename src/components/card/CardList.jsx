@@ -11,7 +11,10 @@ const CardList = ({ cardList }) => {
 }
 
 CardList.propTypes = {
-
+    cardList: PropTypes.arrayOf(
+        PropTypes.shape({
+            
+        }))
 }
 
 export default CardList
