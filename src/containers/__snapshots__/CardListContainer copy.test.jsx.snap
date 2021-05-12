@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardListContainer renders a list of magic cards to the page 1`] = `
+Array [
+  <ul
+    aria-label="cards"
+  />,
+]
+`;
