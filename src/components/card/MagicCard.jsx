@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const MagicCard = ({ card }) => {
     return (
-        <li>
-            <h1>{card.name}</h1>
-            <img src={card.image} alt="image of card" />
-        </li>
+        <Link to={card.id}>
+            <li>
+                <h1>{card.name}</h1>
+                <img src={card.image} alt="image of card" />
+            </li>
+        </Link>
     );
 };
 

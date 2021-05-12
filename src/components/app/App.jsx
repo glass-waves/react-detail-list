@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import CardDetailContainer from '../../containers/CardDetailContainer';
 import CardListContainer from '../../containers/CardListContainer';
-import CardDetail from '../card/CardDetail';
 
 export default class App extends Component {
     render() {
@@ -20,7 +20,7 @@ export default class App extends Component {
                             path="/:id"
                             exact
                             render={(routerProps) => (
-                                <CardDetail {...routerProps} />
+                                <CardDetailContainer {...routerProps} />
                             )}
                         />
                     </Switch>
