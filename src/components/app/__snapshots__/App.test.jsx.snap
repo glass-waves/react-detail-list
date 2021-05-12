@@ -2,6 +2,15 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <div />
+  <div>
+    <div>
+      <h1>
+        Loading
+      </h1>
+      <ul
+        aria-label="cards"
+      />
+    </div>
+  </div>
 </DocumentFragment>
 `;

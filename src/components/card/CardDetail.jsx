@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const CardDetail = ({ card }) => {
     return (
         <div>
+            <Link to="/">Back</Link>
             <h1>{card.name}</h1>
             <img src={card.image} alt="card image" />
             <p>Type: {card.cardType}</p>
