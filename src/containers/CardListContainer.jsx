@@ -19,6 +19,7 @@ export default class CardListContainer extends Component {
                     Loading
                 </h1>
                 }
+                <CardList />
             </div>
         )
     }
